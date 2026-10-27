@@ -64,7 +64,7 @@ def test_signup_adds_participant_to_existing_activity(client):
 
 def test_signup_returns_not_found_for_unknown_activity(client):
     # Arrange
-    activity_name = "Debate Club"
+    activity_name = "Astronomy Club"
     activities_before_request = deepcopy(app_module.activities)
 
     # Act
